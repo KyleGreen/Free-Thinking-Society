@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+{ height: 100%;}
+
+*
+{ margin: 0;
+  padding: 0;}
+
+body
+{ font: normal 90% Arial, Helvetica, sans-serif;
+  background: #e7e2e2 ;
+  color: #000;
+}
+
+p
+{ padding: 0 0 10px 0;
+  color: #1D1D1D;
+  line-height: 1.7em;
+  font-size: 100% }
+
+#footer_container{ 
+	height: 85px;
+	margin-top: 30px;
+	background: #c1282d;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+	box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+} 
+ 
+#footer{
+	width: auto;
+	height: 20px;
+	padding-top: 20px;
+	padding: 0.5em 0 0 1em;
+	text-align: left; 
+	background: transparent;
+	text-shadow: 1px 1px #535353;
+	color: #fff;
+}
+
+#footer a, #footer a:hover{
+	text-shadow: 1px 1px #535353;
+	color: #fff;
+	text-decoration: none;
+	padding-bottom: 20px;
+}
+
+#footer a:hover{
+	text-decoration: underline;
+}
+
+#footer a, #footer a:hover{
+	text-shadow: 1px 1px #535353;
+	color: #fff;
+	text-decoration: none;
+}
+
+#footer a:hover{
+	text-decoration: underline;
+}
+
+.footer-buy-tickets{
+	text-shadow: 1px 1px #535353;
+	color: #fff;
+	font-weight:bolder;
+	text-align:left;
+	text-decoration: none;
+}
