@@ -35,13 +35,14 @@ ol, ul {
 
 
 html{
-	width: 800px;
-	margin: auto;
 	font-size: 100%;
+	width: 750px;
+	margin: auto;
 	max-width: 90%;
 	min-width: 22%;
-	background-color: #fffff;
 }
+
+
 
 h1, 
 h2, 
@@ -93,25 +94,45 @@ body{
 
 .grid-row{
 	overflow: hidden;
+	width: 500px;
 	/*Forces the parten element to wrap around floated children*/
 }
 
 .unit{
 	float: left;
 	width: 46%;
-	padding: 0.2em;
+	background-color: #060;
+	width: 230px;
+	padding: 0.6% 2% 2% 2%;
 }
 
 .leftcolumn{
 	float: left;
-	width: 44%;
-	padding: 0.5% 3% 5% 0;
+	width: 40%;
+	padding: 0.2% 0 2% 1%;
 	display: block;
 }
 
 .rightcolumn{
 	float: right;
-	width: 44%;
-	padding: 0.5% 0 5% 3%;
+	width: 40%;
+	padding: 0.2% 0 2% 1%;
 	display: block;
 }
+
+.leftcolumn3{
+	float: left;
+	display: block;
+	
+}
+
+.rightcolumn3{
+	float: right;
+    position: absolute;
+    top: 210px;
+    bottom: 0;
+    left: 1000px;
+    background: #ffa;
+	
+}
+
